@@ -2,6 +2,6 @@
 
 FROM node:12
 WORKDIR /src
-COPY . /src
+COPY . .
 RUN npm install
 CMD ["npm", "start"]
